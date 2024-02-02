@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap");
+
 body, ul, li, p{
     margin: 0px;
     padding: 0px;
@@ -6,28 +8,66 @@ body, ul, li, p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifS;
 }
 
+.container{
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+}
+
 a{
+    color: #333333;
     text-decoration: none;
-    color: white ;
+    font-weight: bolder;
+    font-size: 12px;
+    margin-left: 20px;
 }
 
 header{
     display: flex;
     background: #b92b00;
     padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between
 }
 
-h1{
-    font-family:inherit;
+.header-2{
+    background-color: #d9a300;
+    display: flex;
+    margin: 0;
+    padding: 15px 0 15px 0px;
+    justify-content:start;
 }
 
-img{
-    display: block;
-    width: 300px;
+h1{
+    font-size: 35px;
+    font-weight: 500;
+    background-color: white;
+    text-decoration: none;
+    color: #333333;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
+
+hr{
+    height: 0, 5px;
+    border-color: #333333;
+    background-color: #333333;
+    display: flex;
+    width: 920px;
+    color: #333333;
+}
+
+.linha{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+
+
 .flex>div{
     flex: 50px;
     margin: 10px 10px;
